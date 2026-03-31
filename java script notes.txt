@@ -1,0 +1,102 @@
+javascript:-
+javascript is used to perform an action on the website.
+debugging:-
+fnding and removing errors in to a program.
+1. alert
+2. console.log()
+3. window.write()
+variables:_
+it is a named memory locaton that is used to store data and results there are following types of variable.
+1. int(numeric)(123)
+2. float(decimal point)(22.4)
+3. char(single alpha char)('a')
+4. string(alphanumeric)("39-CLahore")
+5. bool(true/false)(off/on)
+operators:-
+1. arithmatic operators (+,-,*,/,%)
+2. logical operators(AND,OR,NOT)
+3. Relational operators(>,<,>=,<=,==(equal to),===(strictly equal to),!=(not equal to)
+4. increment/decrement (++,--)
+5. concatination operator(+)
+6. assignment operator(=)
+inerview question:-
+Q1:difference between preincrement and postincrement?
+Q2:difference between predecrement and postdecrement?
+decision structure:-
+it is used to changed to flow of the program on the basis of some condition.
+there are following decision structure
+1. if
+
+2. if-else
+3. if-else-if
+4. switch
+5. nested decision structure
+7.DOM(document object model):-
+you would intract with your html document and get set something.
+document:-
+1. head()
+2. body()
+3. getElementsByTagName()       .)inner text   .) inner html   .)attributes[]
+4. getElementsByClassName()
+5. getElementById()
+6. URL
+.8 mouse events:-
+i) OnClick()
+ii) ondblclick()
+iii) onmouseover()
+iv) onmouseleave()
+9. form events;-
+i) onchange()
+ii) onsubmit()
+iii) onfocus()
+iv) onblur()
+10. window events:-
+i) onload
+ii) onscroll
+iii) onresize
+11. keyboard events:-
+i) onkeydown()
+ii) onkeyup()
+iii) onkeypress()
+11. loops:-
+  loop is an itrative structure it repeat some line/body of code until the condition is true.
+  There are three types of loop:-
+i) for(when we know how many times loop itrate)
+ii) while(when we dont know how many times loop itrate)
+iii) do while(when u can iterate your loop on false condition then do while loop is used.)
+12. initialization
+13. condition
+14. increment/decrement.
+note:-
+1) dom manupulatin
+2) array
+15. Array:-
+ array is used to store list of data we can acess a data in an array using index number.index number is starting from zero.
+ there are two types of array:-
+i) one dimentional array:(one dimentional array is consist of one row or one coloumn it is called 1-d leniar array.)
+ii) two dimentional array:(two dimentional array consist of more than one row and coloum it is called matrix or 2d array.)
+16. function:-
+function is a block of code that execute its body when it is called on a event.
+there are two types of funtion:-
+i) built-in(the function that is written by the language developer is called build-in function.There are two types of build-in function:i)null function ii) parametrized)
+ii) user defined(the function that is written by its own is called user defined funtions.There are two types of user-defined function:i)null function ii)parametrized)
+17. Query selector:-
+it returns only one selector(but not used becuase if we want to select only one clas then we can use id)
+18. query selector all:-
+It return all same class element in a list. We can manipulate list using loop.
+19. Arrays built-in-function:-
+i) length()
+ii) push()
+iii) pop()
+iv) shift()
+v) unshift()
+vi) splice()
+vii) concatenate
+viii) toString()
+viv) join()
+vv) slice()
+vvi) delete()
+
+
+ 
+
