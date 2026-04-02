@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number" id="num1">
+        <button onclick="abc()">push in bill</button>
+        <button onclick="t()">get total bill</button>
+        <h2 id="f"></h2>
+        <script>
+           x=[];
+           function abc(){
+            v1=document.getElementById('num1').value;
+            x.push(v1);
+            console.log(x);
+           } 
+           function t(){
+            sum=0;
+            for(i=0;i<x.length;i++){
+                sum=sum+Number(x[i]);
+            }
+            document.getElementById('f').innerHTML=sum;
+           }
+        </script>
+    </body>
+</html>
