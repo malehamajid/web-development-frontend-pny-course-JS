@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <label>enter your salary range:</label>
+        <select name="p" id="p">
+            <option value="t1">50,000 or less than 50,000</option>
+            <option  value="t2">more than 50,000 upto 100,000</option>
+            <option value="t3">more than 100,000 upto 200,000</option>
+            <option value="t4">more than 200,000 upto 300,000</option>
+            <option value="t5">more than 300,000 upto 500,000</option>
+            <option value="t6">more than 500,000 upto 1,000,000</option>
+            <option value="t7">more than 1,000,000</option>
+        </select>
+        <br><br>
+        <label>enter your exact salary</label>
+        <input type="number" id="j" name="j" min="1" max="1,000,000"><br><br>
+        <button onclick="ly()">select</button>
+        <h1 id="res"></h1>
+        <script>
+            function ly(){
+          x=document.getElementById("p").value;
+          z=document.getElementById("j").value;
+          if(x=='t1'){
+            document.getElementById('res').innerHTML="there is no tax on you salary";
+            if(z>50000){
+                document.getElementById('res').innerHTML="enter correct range";
+            }
+          }
+          if(x=='t2'){
+            total= z;
+            if(x=='t2'){
+                newtotal=total-(2.5/100*total);
+            document.getElementById('res').innerHTML = "2.5% tax is applicable on your salary so after cutting tax your salary  is=" + newtotal;
+            if(z<50001||z>100000){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+            if(x=='t3'){
+            total= z;
+            if(x=='t3'){
+                newtotal=total-(12.5/100*total);
+            document.getElementById('res').innerHTML = "12.5% tax is applicable on your salary so after cutting tax your salary  is=" + newtotal;
+            if(z<100001||z>200000){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+            if(x=='t4'){
+            total= z;
+            if(x=='t4'){
+                newtotal=total-(20/100*total);
+            document.getElementById('res').innerHTML = "20% tax is applicable on your salary so after cutting tax your salary is ="+ newtotal;
+            if(z<200001||z>300000){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+            if(x=='t5'){
+            total= z;
+            if(x=='t5'){
+                newtotal=total-(25/100*total);
+            document.getElementById('res').innerHTML = "25% tax is applicable on your salary so after cutting tax your salary is =" + newtotal;
+            if(z<300001||z>500000){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+            if(x=='t6'){
+            total= z;
+            if(x=='t6'){
+                newtotal=total-(32.5/100*total);
+            document.getElementById('res').innerHTML = "32.5% tax is applicable on your salary so after cutting tax your salary is =" + newtotal;
+            if(z<500001||z>1000000){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+            if(x=='t7'){
+            total= z;
+            if(x=='t7'){
+                newtotal=total-(35/100*total);
+            document.getElementById('res').innerHTML = "35% tax is applicable on your salary so after cutting tax your salary is =" + newtotal;
+            if(z<1000001){
+                document.getElementById('res').innerHTML = "enter correct range";
+            }
+             }  
+            }
+          }
+        </script>
+    </body>
+</html>
